@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Panwa">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/panwa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="แหลมพันวา ตั้งอยู่ในเขตตำบลวิชิต อำเภอเมืองภูเก็ต จังหวัดภูเก็ต ทางทิศตะวันออกเฉียงใต้ของเกาะภูเก็ต บริเวณนั้นมีทิวทัศน์ที่สวยงาม น้ำทะเลใสสะอาด และยังคงความเป็นธรรมชาติของคนท้องถิ่นไว้ได้เป็นอย่างดี เป็นที่ตั้งของโครงการก่อสร้างโรงแรมระดับห้าดาวเป็นจำนวนมาก โดยโรงแรมแห่งแรกที่ตั้งอยู่ที่แหลมนี้ คือ โรงแรมเคปพันวา เป็นโรงแรมระดับหรูแห่งแรกของจังหวัดภูเก็ต
+
+หาดพันวา ภูเก็ต หาดพันวาเป็นหาดที่อยู่ห่างจากตัวเมืองภูเก็ตประมาณ 15 กิโลเมตร โดยทางเข้าจะเป็นเนินเขาอยู่ทางซ้ายมือ ก่อนถึงพิพิธภัณฑ์สัตว์น้ำเล็กน้อย เป็นหาดทรายสีขาว น้ำทะเลสีเขียวมรกต มีต้นมะพร้าวขึ้นอยู่เต็มชายหาด เหมาะแก่การเล่นน้ำ อาบแดด กีฬาทางน้ำเป็นอย่างยิ่ง"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="แหลมพันวา"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainQuiz1">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true" />
+
+    <TextView
+        android:id="@+id/lbl_question"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="49dp"
+        android:text="Questions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/option1"
+        android:layout_width="170dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="220dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/option1"
+        android:onClick="onClickCard"
+        android:scaleType="fitCenter"
+        android:src="@drawable/black" />
+
+    <ImageButton
+        android:id="@+id/option2"
+        android:layout_width="170dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/option2"
+        android:onClick="onClickCard"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bing" />
+
+    <ImageButton
+        android:id="@+id/option3"
+        android:layout_width="170dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="221dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/option3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/angularjs" />
+
+    <ImageButton
+        android:id="@+id/option4"
+        android:layout_width="170dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/option4"
+        android:onClick="onClickCard"
+        android:scaleType="fitCenter"
+        android:src="@drawable/acrobat" />
+
+</RelativeLayout>

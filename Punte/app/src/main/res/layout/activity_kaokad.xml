@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kaokad">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kaokad" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="หอชมวิวเขาขาด เป็นจุดชมวิวอีกแห่งหนึ่ง ของจังหวัดภูเก็ต ตั้งอยู่ในตำบลวิชิต อำเภอเมือง จังหวัดภูเก็ต ตั้งอยู่ในบริเวณ อ่าวมะขามใกล้กับแหลมพันวา จุดชมวิวเขาขาดเป็นจุดชมวิวที่สวยงามอีกแห่งหนึ่ง ของเมืองภูเก็ตที่มีจุดชมวิวมากมาย แต่มีเพียง ไม่กี่แห่งที่สามารถชมวิวได้ 360 องศา และแน่นอนว่าชมวิวได้ 360 องศาอย่างแท้จริงที่นี่คือ “จุดชมวิวเขาขาด” เป็นมุมมองที่มีเสน่ห์ ไม่แพ้จุดอื่น ๆของภูเก็ตเลยทีเดียวโดยรอบ บริเวณหอชมวิวเขาขาดมี ทัศนียภาพ ที่เป็นเอกลักษณ์ใน มุมสูงี่สามารถมองเห็นทัศนียภาพได้ถึง 360 องศา ดึงดูดใจนักท่องเที่ยวให้เข้าเที่ยวชมและสัมผัสกับความยิ่งใหญ่ ตระการตาแห่ง ท้องทะเลอันดามัน และความสวยงาม ของ ทิวทัศน์ รอบเกาะภูเก็ต "
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="หอชมวิวเขาขาด"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</androidx.constraintlayout.widget.ConstraintLayout>

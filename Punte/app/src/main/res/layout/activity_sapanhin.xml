@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sapanhin">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sapanhin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="ปลายเเหลมสะพานหิน  เป็นสถานที่พักผ่อนหย่อนใจภายในตัวเมืองภูเก็ต มีลักษณะเป็นชายหาดอยู่สุดถนนภูเก็ตซึ่งยื่นลงไปในทะเลเล็กน้อย เป็นที่ตั้ง ของอนุสาวรีย์หลัก 60 ปี ซึ่งสร้างขึ้นเมื่อ พ.ศ. 2511 เพื่อเป็นที่ระลึกแก่กัปตันเอ็ดเวิร์ด โธมัสไมล์ ชาวออสเตรเลียผู้นำเรือขุดแร่ลำแรกมาใช้ขุดแร่ดีบุกในประเทศไทย เมื่อ พ.ศ. 2452 รวมทั้งเป็นที่ตั้งของศูนย์กีฬา สระว่ายน้ำ ศูนย์บริการคอมพิวเตอร์แก่ประชาชน ศูนย์เยาวชน ซึ่งอยู่ในความรับผิดชอบของเทศบาลนครภูเก็ต และศาลเจ้ากิ้วเที้ยนเก้ง สถานที่สักการะพระนางกิ้วเที้ยนเลี่ยนลื้อ และใช้เป็นสถานที่ประกอบพิธีในเทศกาลกินผัก"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ปลายเเหลมสะพานหิน"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

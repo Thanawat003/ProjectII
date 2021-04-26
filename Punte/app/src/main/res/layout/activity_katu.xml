@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Katu">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/katu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="ศาลเจ้ากะทู้ หรือศาลเจ้าในทู ตามแต่จะเรียกขาน จุดกำเนิดก่อเกิดประเพณีถือศีลกินผักของภูเก็ต เป็นศาลเจ้าเก่าแก่และศักดิ์สิทธิ์ ตำนานครั้งโบราณกาลได้มีคณะงิ้วเดินทางมาจากเมืองจีนเพื่อเปิดการแสดงที่กะทุ้ แต่แล้วผู้แสดงในคณะงิ้วเกิดเจ็บป่วยขึ้น จึงคิดได้ว่า ได้ละเลยประเพณีการถือศีลกินผัก ซึ่งเคยกระทำเป็นประจำทุกปี จึงได้ประกอบพิธีกินผักขึ้น จากนั้นโรคภัยไข้เจ็บต่างๆ ก็หายไป จนหมดสิ้น ชาวบ้านกะทู้เกิดความเลื่อมใสจึงศรัทธา จัดให้มีพิธีถือศีลกินผักต่อเนื่องกันมา จากนั้นไม่นานประเพณีถือศีลกินผักก็แพร่หลายมากขึ้นเรื่อยๆ ต่อมาหลวงอำนาจนรารักษ์ (ต้นตระกูลตัณฑเวทย์) ซึ่งเป็นนายเหมืองใหญ่ และเป็นผู้นำชุมชนบ้านกะทู้ได้ส่งคนไปนำเอา “เหี่ยวเอี้ยน” หรือขี้เถ้าธูปและกระถางธูปจากมณฑลกังใส ประเทศจีน มาไว้ที่ศาลเจ้ากะทู้ "
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ศาลเจ้ากะทู้"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

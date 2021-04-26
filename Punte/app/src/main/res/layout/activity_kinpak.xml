@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kinpak">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kinpak" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text=" เป็นการถือศีลชำระจิตใจ และงดเว้นการบริโภคเนื้อสัตว์ทุกชนิด มีระยะเวลา 9 วัน เริ่มตั้งแต่ ขึ้น 1 ค่ำ เดือน 9 จนกระทั่งถึง ขึ้น 9 ค่ำ เดือน 9 ของทุกปี ซึ่งอยู่ในช่วง เดือนกันยายน-ตุลาคม เป็นงานประเพณีซึ่งชาวจีนที่เข้ามาอาศัยในภูเก็ต ยึดถือปฏิติมาช้านานตั้งแต่ พ.ศ. 2368 จนถึงทุกวันนี้ จะมีพิธีกรรมต่างๆ มากมาย อาทิ พิธีอัญเชิญพระ พิธีลุยไฟ พิธีสะเดาะเคราะห์ พิธีส่งพระ เป็นต้น งานเทศกาลนี้นับเป็นงานที่ได้รับความสนใจ และเลื่อมในศรัทธาทั้งจากชาวไทย และชาวต่างประเทศมากที่สุดงานหนึ่ง"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประเพณีกินเจ"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</androidx.constraintlayout.widget.ConstraintLayout>

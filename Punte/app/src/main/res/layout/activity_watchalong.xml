@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Watchalong">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/watchalong" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="วัดฉลอง หรือชื่อที่เรียกเป็นทางการ ก็คือ วัดไชยธาราม เป็นวัดคู่บ้านคู่เมืองที่มีชื่อเสียงของภูเก็ต  ถ้าใครมา ภูเก็ตจะต้องมาแวะนมัสการ หลวงพ่อแช่ม แห่งวัดฉลอง เพื่อเป็นสิริมงคลแต่ตัวเอง  เรื่องราวความศักดิ์สิทธิ์ กิตติศัพท์ในการรักษาโรค บุญญาบารมีและเมตตาธรรมที่สูงส่งของหลวงพ่อทำให้มีผู้เลื่อมใสศรัทธาเป็นอันมาก เล่ากันว่าในขณะที่ท่านมีชีวิตอยู่นั้นถึงกับมีผู้ที่รอปิดทองตามแขนและขาของท่านจนแลดูเหลืองอร่าม ไปทั่วราว กับปิดทองพระพุทธรูปและแม้ว่าหลวงพ่อแช่มจะมรณภาพเป็นเวลานับหนึ่งร้อยปีมาแล้วก็ตาม ชื่อเสียงเกียรติคุณ และบารมีของท่านก็อยู่ในความทรงจำของผู้คนสืบมา"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="วัดฉลอง"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</androidx.constraintlayout.widget.ConstraintLayout>

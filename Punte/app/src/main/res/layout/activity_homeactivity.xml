@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backg04"
+    android:layout_height="match_parent"
+    tools:context=".Homeactivity">
+
+    <ImageButton
+        android:id="@+id/mod1"
+        android:layout_width="200dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/iconbt1"
+        app:layout_constraintBottom_toTopOf="@+id/mod3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mod2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mod2"
+        android:layout_width="164dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/iconbt2"
+        app:layout_constraintBottom_toTopOf="@+id/mod3"
+        app:layout_constraintEnd_toStartOf="@+id/mod1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mod3"
+        android:layout_width="157dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/iconbt3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/mod2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img7" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="147dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/mod3"
+        app:srcCompat="@drawable/img5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

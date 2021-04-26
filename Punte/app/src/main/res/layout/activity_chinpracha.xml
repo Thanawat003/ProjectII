@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chinpracha">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chinpracha" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="337dp"
+        android:text="บ้านชินประชา ตั้งอยู่ที่ ตำบลตลาดเหนือ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต เป็นบ้านที่สร้างขึ้นช่วงปลายรัชสมัยรัชกาลที่ 5 โดย พระพิทักษ์ชินประชา(ตันม่าเสียง) เป็นสถาปัตยกรรมตามแบบชิโน-โปรตุกีส หลังแรกของจังหวัดภูเก็ตเลย หรือที่เรียกว่า อังม่อเหลา นั่นเองค่ะ บ้านหลังนี้จะมีความสไตล์จีนผสมผสานยุโรป เป็นสไตล์ที่สวยย้อนยุคมีกลิ่นอายในอดีตอย่างมาก เอกลักษณ์ของ บ้านชินประชา คือ จะเป็นบ้าน 2 ชั้น มีประตูบ้านที่มีอักษรจีนลงรักปิดทอง ตามสไตล์บ้านคนจีน หน้าต่างทำจากไม้ เป็นบานเกล็ดเปิดปิดได้ ตรงกลางบ้านจะมีสระน้ำเล็กๆ และเปิดโล่งเพื่อให้อากาศระบายได้ แต่ในส่วนของพื้นกระเบื้องนั้นจะนำมาจากอิตาลี ส่วนบันไดก็จะเป็นบันไดไม้ที่มีลวดลายสวยงามมากๆ "
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="บ้านชินประชา"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
