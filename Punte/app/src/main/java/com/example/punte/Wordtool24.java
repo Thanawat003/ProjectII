@@ -12,7 +12,7 @@ public class Wordtool24 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wordtool24);
-        word2= MediaPlayer.create(Wordtool24.this,R.raw.wordtool24);
+        word2= MediaPlayer.create(Wordtool24.this,R.raw.wordtool23);
     }
     public void Playargor(View v){
         word2.start();

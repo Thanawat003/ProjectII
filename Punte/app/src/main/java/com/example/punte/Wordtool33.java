@@ -12,7 +12,7 @@ public class Wordtool33 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wordtool33);
-        word2= MediaPlayer.create(Wordtool33.this,R.raw.wordtool33);
+        word2= MediaPlayer.create(Wordtool33.this,R.raw.wordtool32);
     }
     public void Playargor(View v){
         word2.start();

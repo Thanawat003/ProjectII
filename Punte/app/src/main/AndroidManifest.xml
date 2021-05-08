@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GameStart"></activity>
-        <activity android:name=".Game2" />
-        <activity android:name=".Game" />
+        <activity android:name=".Game4"></activity>
+        <activity android:name=".ChooseAnswer" />
+        <activity android:name=".Game3" />
+        <activity android:name=".DisplayResult" />
+        <activity android:name=".MainQuiz1" />
+        <activity android:name=".Quiz" />
         <activity android:name=".LaunchScreen" />
         <activity android:name=".Quizmain1" />
         <activity android:name=".Wordverb20" />
@@ -226,7 +229,6 @@
         <activity android:name=".Word2" />
         <activity android:name=".Quizmain" />
         <activity android:name=".Answer" />
-        <activity android:name=".MainQuiz1" />
         <activity android:name=".Quiz1" />
         <activity android:name=".Verbword" />
         <activity android:name=".Festivalword" />
@@ -235,6 +237,10 @@
         <activity android:name=".Word1" />
         <activity android:name=".Relativeword" />
         <activity android:name=".Knowativity" />
+        <activity android:name=".QuizMain2" />
+        <activity android:name=".GameStart" />
+        <activity android:name=".Game2" />
+        <activity android:name=".Game" />
         <activity android:name=".Gamemain" />
         <activity android:name=".Wordmain" />
         <activity android:name=".Homeactivity" />

@@ -12,7 +12,7 @@ public class Word32 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word32);
-        word2= MediaPlayer.create(Word32.this,R.raw.word32);
+        word2= MediaPlayer.create(Word32.this,R.raw.word30);
     }
     public void Playargor(View v){
         word2.start();

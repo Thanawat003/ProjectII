@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import android.widget.TextView;
 
-import org.jetbrains.annotations.Nullable;
+import androidx.annotation.Nullable;
 
 
 public class DisplayResult extends Activity {

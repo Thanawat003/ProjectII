@@ -18,17 +18,18 @@ public class Gamemain extends AppCompatActivity {
         quiz01 = (ImageButton) findViewById(R.id.game1);
         quiz01.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent game1 = new Intent(Gamemain.this,Quizmain.class);
                 startActivity(game1);
+                finish();
             }
         });
         quiz02 = (ImageButton) findViewById(R.id.game2);
         quiz02.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent game1 = new Intent(Gamemain.this,GameStart.class);
-                startActivity(game1);
+                Intent game2 = new Intent(Gamemain.this,Game4.class);
+                startActivity(game2);
             }
         });
 

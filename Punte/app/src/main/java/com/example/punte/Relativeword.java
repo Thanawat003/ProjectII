@@ -46,7 +46,6 @@ String namew[]={
         "ติ่วอิ้ม  แม่ยาย",
         "อาเตี่ยว  น้าเขย หรือ ลุงเขย",
         "อาบ้อ  ภรรยา",
-        "อาแปะ  พี่ชายพ่อ",
         "อาโส้ พี่สะใภ้",
         "อาม่า  ย่าหรือยาย",
         "อาอ้าง  สามี",
@@ -174,83 +173,83 @@ String namew[]={
                     startActivity(w16);
                 }
                 if(position==16){
-                    Intent w17=new Intent(Relativeword.this,Word17.class);
+                    Intent w17=new Intent(Relativeword.this,Word18.class);
                     startActivity(w17);
                 }
                 if(position==17){
-                    Intent w18=new Intent(Relativeword.this,Word18.class);
+                    Intent w18=new Intent(Relativeword.this,Word19.class);
                     startActivity(w18);
                 }
                 if(position==18){
-                    Intent w19=new Intent(Relativeword.this,Word19.class);
+                    Intent w19=new Intent(Relativeword.this,Word20.class);
                     startActivity(w19);
                 }
                 if(position==19){
-                    Intent w20=new Intent(Relativeword.this,Word20.class);
+                    Intent w20=new Intent(Relativeword.this,Word21.class);
                     startActivity(w20);
                 }
                 if(position==20){
-                    Intent w21=new Intent(Relativeword.this,Word21.class);
+                    Intent w21=new Intent(Relativeword.this,Word22.class);
                     startActivity(w21);
                 }
                 if(position==21){
-                    Intent w22=new Intent(Relativeword.this,Word22.class);
+                    Intent w22=new Intent(Relativeword.this,Word24.class);
                     startActivity(w22);
                 }
                 if(position==22){
-                    Intent w23=new Intent(Relativeword.this,Word23.class);
+                    Intent w23=new Intent(Relativeword.this,Word25.class);
                     startActivity(w23);
                 }
                 if(position==23){
-                    Intent w24=new Intent(Relativeword.this,Word24.class);
+                    Intent w24=new Intent(Relativeword.this,Word27.class);
                     startActivity(w24);
                 }
                 if(position==24){
-                    Intent w25=new Intent(Relativeword.this,Word25.class);
-                    startActivity(w25);
+                    Intent w24=new Intent(Relativeword.this,Word28.class);
+                    startActivity(w24);
                 }
                 if(position==25){
-                    Intent w26=new Intent(Relativeword.this,Word27.class);
+                    Intent w26=new Intent(Relativeword.this,Word29.class);
                     startActivity(w26);
                 }
                 if(position==26){
-                    Intent w27=new Intent(Relativeword.this,Word28.class);
+                    Intent w27=new Intent(Relativeword.this,Word30.class);
                     startActivity(w27);
                 }
                 if(position==27){
-                    Intent w28=new Intent(Relativeword.this,Word29.class);
+                    Intent w28=new Intent(Relativeword.this,Word31.class);
                     startActivity(w28);
                 }
                 if(position==28){
-                    Intent w29=new Intent(Relativeword.this,Word30.class);
+                    Intent w29=new Intent(Relativeword.this,Word32.class);
                     startActivity(w29);
                 }
                 if(position==29){
-                    Intent w30=new Intent(Relativeword.this,Word31.class);
+                    Intent w30=new Intent(Relativeword.this,Word33.class);
                     startActivity(w30);
                 }
                 if(position==30){
-                    Intent w31=new Intent(Relativeword.this,Word32.class);
+                    Intent w31=new Intent(Relativeword.this,Word34.class);
                     startActivity(w31);
                 }
                 if(position==31){
-                    Intent w32=new Intent(Relativeword.this,Word33.class);
+                    Intent w32=new Intent(Relativeword.this,Word35.class);
                     startActivity(w32);
                 }
                 if(position==32){
-                    Intent w33=new Intent(Relativeword.this,Word34.class);
+                    Intent w33=new Intent(Relativeword.this,Word36.class);
                     startActivity(w33);
                 }
                 if(position==33){
-                    Intent w34=new Intent(Relativeword.this,Word35.class);
+                    Intent w34=new Intent(Relativeword.this,Word37.class);
                     startActivity(w34);
                 }
                 if(position==34){
-                    Intent w35=new Intent(Relativeword.this,Word36.class);
+                    Intent w35=new Intent(Relativeword.this,Word37.class);
                     startActivity(w35);
                 }
                 if(position==35){
-                    Intent w36=new Intent(Relativeword.this,Word37.class);
+                    Intent w36=new Intent(Relativeword.this,Word38.class);
                     startActivity(w36);
                 }
                 if(position==36){
